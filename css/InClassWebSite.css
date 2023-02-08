@@ -1,0 +1,232 @@
+/* Phuong Uyen Dang*/
+
+body {
+    font-family: Cambria, Georgia, serif;
+    font-size: large;
+    color: #53593d;
+    background-color: #ebe7d3;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: upper-alpha;
+}
+
+
+/* mouse over link */
+
+a {
+    text-decoration: none;
+    color: #f3f0d7;
+}
+
+a:hover {
+    opacity: 0.5;
+    color: #deda71;
+}
+
+.topic {
+    /*highlight topic name*/
+    font-style: italic;
+    color: #d3da71;
+}
+
+
+/***** Hyperlinks *****/
+
+.navflexcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #53593d;
+    padding:0.3em;
+}
+
+.navflexitem {
+    text-shadow: 0.2em 0.2em 0 rgba(0, 0, 0, 0.1);
+    margin-right: 0.6em;
+}
+
+.space {
+    flex: 3;
+}
+
+.social {
+    flex: 0.1;
+    margin-right: 0.02em;
+}
+
+
+/***** Main content *****/
+
+.maincontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 3em 5em 2em;
+    /*top | right and left | bottom*/
+}
+
+.maincontaineritem {
+    padding: 1em 2.5em 1em;
+    background-color: #9b9f8a;
+    font-style: normal;
+    font-size: medium;
+    color: #ebe7d3;
+}
+
+
+/***** Table Page *****/
+table {
+    Width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+    border: 0.1em solid #deda71;
+}
+
+table th {
+    border: 0.1em solid #deda71;
+}
+table td {
+    border: 0.11em solid #deda71;
+}
+
+caption {
+    font-size: 2em;
+    text-decoration: underline;
+    caption-side: top;
+    font-weight: bold;
+    color: #EAE7C6;
+}
+
+.heading {
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    font-size: 1.5em;
+    font-weight: bolder;
+    font-family: Calibri, Cambria, sans-serif;
+}
+
+.subheading {
+    font-style: italic;
+    font-size: 1.3em;
+    font-weight: normal;
+    font-family: Calibri, Cambria, sans-serif;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.highlight {
+    padding: 0.5em 0.8em 0.5em 0.8em;
+    font-size: 1.1em;
+    font-weight: bolder;
+    font-family: Calibri, Cambria, sans-serif;   
+}
+
+.text {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    font-family: "Calibri Light", Cambria, sans-serif;   
+}
+
+.pricetext {
+    text-align: center;
+    padding-top: 0.3em;
+    font-family: "Calibri Light", Cambria, sans-serif;  
+}
+
+
+/***** Image Page *****/
+
+figcaption {
+    font-family: Calibri, Cambria, sans-serif;
+    font-weight: bold;
+}
+
+.imagespagemainflexcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin: 2em 5em 2em;
+}
+
+.imagespagemainflexitem {
+    background-color: #9b9f8a;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+    padding: 1.5em 1em 1.5em;
+    border-radius: 0.75em;
+    flex: 3;
+}
+
+.imagetext {
+    font-family: Calibri, Cambria, sans-serif;
+    font-style: italic;
+}
+
+
+/***** Form page *****/
+
+label {
+    font-size: large;
+}
+
+input[type="text"],
+textarea {
+    width: 35%;
+    padding-left: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border: 0.02em solid #ccc;
+    border-radius: 0.5em;
+    font-family: Tahoma, Verdana, sans-serif;
+    color: #9b9f8a;
+}
+
+select {
+    width: 20%;
+    padding-left: 0.4em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    border: 0.02em solid #ccc;
+    border-radius: 0.5em;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+input[type="date"],
+input[type="time"] {
+    width: 20%;
+    border: 0.02em solid #ccc;
+    border-radius: 0.5em;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+
+/***** Footer *****/
+
+.footercontainer {
+    background-color: #53593d;
+    color: #fffff0;
+    text-align: center;
+    padding: 0.4em;
+    margin-bottom: 2em;
+}
